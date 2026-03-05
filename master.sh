@@ -65,3 +65,5 @@ echo "Installing Calico network plugin..."
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.2/manifests/calico.yaml
 
 echo "Master node setup complete!"
+echo "joining command for worker -kubeadm token create --print-join-command"
+# kubeadm token create --print-join-command
