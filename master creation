@@ -8,3 +8,4 @@ az vm create \
   --admin-username azureuser \
   --admin-password 'ASDFGHJKL@123' \
   --authentication-type password
+# After this we are suppose to make private ip as static from network interface card option
