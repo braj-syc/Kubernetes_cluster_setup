@@ -1,0 +1,10 @@
+az vm create \
+  --resource-group test \
+  --name vm-k8 \
+  --vnet-name vnet-k8 \
+  --subnet subnet-k8 \
+  --image Ubuntu2404 \
+  --size Standard_D2ads_v5 \
+  --admin-username azureuser \
+  --admin-password 'Give_password@123' \
+  --authentication-type password
